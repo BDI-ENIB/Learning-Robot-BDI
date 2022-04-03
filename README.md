@@ -8,7 +8,9 @@ L'objectif est de participer à la coupe de France de Robotique à la fin de l'a
 ## I-Préparer et comprendre l'environnement
 
 le Learning Robot a été conçu avec une teensy 3.5.
+
 Le code est en C++, compilé via arduino (avec l'extension teensyduino).
+
 Pour mettre en commun le code et tracer les différentes versions, nous utilisons git et github.
 
 Si vous ne connaissez pas un des logiciels, je vous l'explique plus bas, aucun soucis X)
@@ -23,7 +25,8 @@ Je recommande pour bien travailler sur ce projet d'avoir :
 
 ### Mention spéciale : git et github
 la sheetcheat git: [github education](https://education.github.com/git-cheat-sheet-education.pdf)
-les tutos pratiques et rapides pour git: [egghead tutorial](https://egghead.io/lessons/misc-practical-git-create-local-repos-with-git-init)
+
+Les tutos pratiques et rapides pour git: [egghead tutorial](https://egghead.io/lessons/misc-practical-git-create-local-repos-with-git-init)
 
 Git est le logiciel qui permet de versionner le projet et Github est la plateforme qui stocke la version du code en ligne qui va servir de référence.
 
