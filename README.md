@@ -12,7 +12,7 @@ Le code est en C++, compilé via arduino (avec l'extension teensyduino).
 Pour mettre en commun le code et tracer les différentes versions, nous utilisons git et github.
 
 Si vous ne connaissez pas un des logiciels, je vous l'explique plus bas, aucun soucis X)
-Sinon vérifiez bien que vous avez tous les logiciels pour coder et passez directement au chapitre suivant :)
+Sinon vérifiez bien que vous avez tous les logiciels pour coder et passez directement au [chapitre suivant](https://github.com/BDI-ENIB/Learning-Robot-BDI#ii-le-fonctionnement-du-robot-en-bref) :)
 
 Je recommande pour bien travailler sur ce projet d'avoir : 
 * un compte github (avec une adresse mail perso si vous voulez garder les accès au projet même après être diplômé)
@@ -22,6 +22,19 @@ Je recommande pour bien travailler sur ce projet d'avoir :
 * VScode avec une extension git pour commit et push au minimum (au hasard gitlens)
 
 ### Mention spéciale : git et github
+la sheetcheat git: [github education](https://education.github.com/git-cheat-sheet-education.pdf)
+les tutos pratiques et rapides pour git: [egghead tutorial](https://egghead.io/lessons/misc-practical-git-create-local-repos-with-git-init)
+
+Git est le logiciel qui permet de versionner le projet et Github est la plateforme qui stocke la version du code en ligne qui va servir de référence.
+
+Pour changer le code il faut :
+* cloner le repository (créer un version locale [stockée sur ton ordinateur] reliée à la version en ligne) 
+* faire les changements que tu veux
+* commit (mettre à jour la version locale du code)
+* push (mettre à jour la version github du code)
+
+Si tu veux faire de gros changements, je te conseille de créer une branche au repository sur le github. Cela permet de travailler sur le code, le tester et quand tout marche bien, tu peux le mettre sur le main. Si d'autres personnes veulent effectuer des changements sur le code principal, ils ne seront pas impactés par les tests que tu aura fait.
+
 ### Mention spéciale : Arduino
 ### Mention spéciale : VSCode
 ## II-Le fonctionnement du robot en bref
