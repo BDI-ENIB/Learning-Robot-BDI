@@ -74,7 +74,7 @@ Vous allez avoir besoin:
 
 * Des paramètres des moteurs dans le panneau de lancement(2)
     * l'entraxe (la distance la plus courte entre les 2 points de contact des roues) 
-            * Pour la mesurer rien de mieux que un plexiglas sur lequel on pose le robot pour bien mettre en avant les points de contact !
+        * Pour la mesurer rien de mieux que un plexiglas sur lequel on pose le robot pour bien mettre en avant les points de contact !
 
 
 ### Première étape le lancement
