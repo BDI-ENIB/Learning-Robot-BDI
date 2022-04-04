@@ -49,7 +49,7 @@ Pour encore plus de comfort, je conseille de mettre dans les préférences un é
 ### Mention spéciale : VSCode
 [Les shortcuts qui font plaisir](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
 
-Ahhhh VSCode. Si ça se voit pas je l'aime bien. Vous pouvez prendre un autre éditeur bien sûr mais celui ci permet de vite installer une extension git qui permet de commit et push et de ne plus taper les commandes dans un terminal !
+Ahhh VSCode. Si ça se voit pas je l'aime bien. Vous pouvez prendre un autre éditeur bien sûr mais celui ci permet de vite installer une extension git qui permet de commit et push et de ne plus taper les commandes dans un terminal !
 
 
 
