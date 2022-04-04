@@ -55,7 +55,30 @@ Ahhh VSCode. Si ça se voit pas je l'aime bien. Vous pouvez prendre un autre éd
 
 ## II-Le fonctionnement du robot en bref
 
+Pour comprendre les agissements du robot, il faut comprendre le découpage général du code. Voici les 4 grandes parties !
+
+### Etape 0 la plus importante, La préparation !
+Eh oui ! Pour aller tout droit et être à peu près correct dans les angles, il faut savoir 2-3 mesures.
+C'est à refaire chaque année minimum, encore mieux après chaque grand déplacement du robot (et oui le trimballer toute une aprèm pour des portes ouvertes ou autre ça compte)
+
+Tout les paramètres à vérifier sont dans le summerbot-main-clean.ino
+
+Vous allez avoir besoin: 
+
+* Des paramètres du match dans le panneau de configuration(1)
+    * La longueur du match en millisecondes (Le robot s'arrête après)
+    * le point de départ dans votre système de repère absolu
+        * Il n'est pas utile pour le moment MAIS il est à garder vous décidez de changer l'IA ou de finir un certain système de repérage absolu (demandez à Evan si vous avez pas la ref). Comme c'est une amélioration très intéressante pour toute personne s'intéressant un tant soit peu au code, je vous prie de la garder.(exemple : créer une IA qui en fonction de la position fait une action, ce qui permet de ne pas être coincé par le robot adverse puisqu'il y aurait possibilité de changer de tâche)
+
+* Des paramètres des capteurs dans le panneau de configuration(1)
+
+* Des paramètres des moteurs dans le panneau de lancement(2)
+    * l'entraxe (la distance la plus courte entre les 2 points de contact des roues) 
+            * Pour la mesurer rien de mieux que un plexiglas sur lequel on pose le robot pour bien mettre en avant les points de contact !
+
+
 ### Première étape le lancement
+
 
 ### Seconde étape le fonctionnement normal
 

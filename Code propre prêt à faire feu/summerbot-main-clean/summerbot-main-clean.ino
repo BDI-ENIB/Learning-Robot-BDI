@@ -90,6 +90,7 @@ bool collisionDetected(){
 long startTime;
 IntervalTimer motionTimer;
 DualDRV8825* dd; //on crée l'objet moteur                                        //
+
 MotionBase *mb; // on crée l'objet motion base                                   //
 
 // Le code executé par le timer. Fonctionnement des moteurs                      //
