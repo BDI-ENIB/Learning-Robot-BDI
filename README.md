@@ -45,6 +45,9 @@ Si tu veux faire de gros changements, je te conseille de créer une branche au r
 
 Pour encore plus de comfort, je conseille de mettre dans les préférences un éditeur externe, c'est à dire utiliser arduino pour compiler et téléverser le code mais l'éditeur externe pour le modifier (vous voyez où je veux en venir ? Utilisez VScode !) puisque le code est majoritairement composé de fichiers Cpp et hpp et que seuls les fichiers dans le même dossier que le .ino sont lisible par Arduino, vous allez avoir besoin de deux éditeurs (Arduino et Vscode), alors autant tout regrouper dans un seul et garder Arduino pour la compilation et le téléversement. Voici un tuto pour changer les préférences Arduino : [locoduino](https://www.locoduino.org/spip.php?article207)
 
+Si vous voulez, j'ai pas testé mais il y a une nouvelle IDE Arduino, avec autocomplétion et formattage automatique.
+Si vous vous sentez l'âme aventureuse voici le lien ! [Arduino Pro IDE](https://www.arduino.cc/pro/arduino-pro-ide)
+
 
 ### Mention spéciale : VSCode
 [Les shortcuts qui font plaisir](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
