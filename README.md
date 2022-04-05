@@ -24,7 +24,7 @@ Je recommande pour bien travailler sur ce projet d'avoir :
 * VScode avec une extension git pour commit et push au minimum (au hasard gitlens)
 
 ### Mention spéciale : git et github
-la sheetcheat git: [github education](https://education.github.com/git-cheat-sheet-education.pdf)
+la cheatsheet git: [github education](https://education.github.com/git-cheat-sheet-education.pdf)
 
 Les tutos pratiques et rapides pour git: [egghead tutorial](https://egghead.io/lessons/misc-practical-git-create-local-repos-with-git-init)
 
@@ -52,7 +52,6 @@ Pour encore plus de comfort, je conseille de mettre dans les préférences un é
 Ahhh VSCode. Si ça se voit pas je l'aime bien. Vous pouvez prendre un autre éditeur bien sûr mais celui ci permet de vite installer une extension git qui permet de commit et push et de ne plus taper les commandes dans un terminal !
 
 
-
 ## II-Le fonctionnement du robot en bref
 
 Pour comprendre les agissements du robot, il faut comprendre le découpage général du code. Voici les 4 grandes parties !
@@ -71,8 +70,11 @@ Vous allez avoir besoin:
         * Il n'est pas utile pour le moment MAIS il est à garder vous décidez de changer l'IA ou de finir un certain système de repérage absolu (demandez à Evan si vous avez pas la ref). Comme c'est une amélioration très intéressante pour toute personne s'intéressant un tant soit peu au code, je vous prie de la garder.(exemple : créer une IA qui en fonction de la position fait une action, ce qui permet de ne pas être coincé par le robot adverse puisqu'il y aurait possibilité de changer de tâche)
 
 * Des paramètres des capteurs dans le panneau de configuration(1)
+    * Distance de détection des capteurs (C'est la distance à partir de laquelle on estime qu'il faut s'arrêter, attention ce n'est pas en millimètres)
+    * la condition pour laquelle on estime qu'il y a collision (la distance que l'on a remplie avant sert à formuler cette condition)
 
-* Des paramètres des moteurs dans le panneau de lancement(2)
+* Des paramètres de la motion base dans le panneau de configuration(1) (pas touche aux paramètres des moteurs !)
+    * le diamètre des roues en mm
     * l'entraxe (la distance la plus courte entre les 2 points de contact des roues) 
         * Pour la mesurer rien de mieux que un plexiglas sur lequel on pose le robot pour bien mettre en avant les points de contact !
 

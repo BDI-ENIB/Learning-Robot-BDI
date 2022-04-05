@@ -89,9 +89,14 @@ bool collisionDetected(){
 // Préparation de la base roulante                                               //
 long startTime;
 IntervalTimer motionTimer;
-DualDRV8825* dd; //on crée l'objet moteur                                        //
+DualDRV8825* dd; //on crée l'objet moteur  
 
-MotionBase *mb; // on crée l'objet motion base                                   //
+//La Motion Base-----------------------------------------------------------------//
+
+MotionBase *mb; // on crée l'objet motion base  
+// dimmensions en mm !
+#define WHEEL_DIAMETER 114; // le diamètre de la roue
+#define ROBOT_DIAMETER 169.5; //l'entraxe
 
 // Le code executé par le timer. Fonctionnement des moteurs                      //
 void motionLoop() {
@@ -134,7 +139,7 @@ void setup () {
 
 
   // 2) Les capteurs -------------------------------------------------------------//
-  pinMode(DIST_BACK_LEFT, INPUT_PULLUP);// demander à LM
+  pinMode(DIST_BACK_LEFT, INPUT_PULLUP);
   pinMode(DIST_BACK_RIGHT, INPUT_PULLUP);
 
     // capteurs SHARP
@@ -156,7 +161,8 @@ void setup () {
 
   // on initialise la motionbase. Les paramètres :                                 //
   //motors, wheel radius, robot radius, x, y, a                                    //
-  mb = new MotionBase(dd, 114 / 2.0, 169.5 / 2.0 );
+  // il y a pas x,y,a parce que on en a pas besoin par défaut ils sont tous à 0                                //
+  mb = new MotionBase(dd, WHEEL_DIAMETER / 2.0, ROBOT_RADIUS / 2.0 );
 
   // on informe la base roulante de sa position de départ                          //
   mb->setPosition(START_X,START_Y,START_A);
