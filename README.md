@@ -38,6 +38,8 @@ Pour changer le code il faut :
 
 Si tu veux faire de gros changements, je te conseille de créer une branche au repository sur le github. Cela permet de travailler sur le code, le tester et quand tout marche bien, tu peux le mettre sur le main. Si d'autres personnes veulent effectuer des changements sur le code principal, ils ne seront pas impactés par les tests que tu aura fait.
 
+En général pour bien travailler, la branche main est toujours fonctionnelle et prête à être téléversée sur le robot, une branche dev (pour développement) est là pour stocker le code pas fini et une branche test est là pour tester le code avant de l'approuver et de le passer sur le main. A noter que chaque partie sur laquelle vous travaillez devrait avoir sa branche dev et test. Vous pouvez faire des branches avec des noms contenant des /. Cela permet par exemple des appelations telles que dev/pinces-levier et test/pinces-levier.
+
 ### Mention spéciale : Arduino
 [Le Guide officiel](https://www.arduino.cc/en/Guide)
 
