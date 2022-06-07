@@ -30,6 +30,8 @@ Les tutos pratiques et rapides pour git: [egghead tutorial](https://egghead.io/l
 
 Git est le logiciel qui permet de versionner le projet et Github est la plateforme qui stocke la version du code en ligne qui va servir de référence.
 
+![ici l'image](/pictures/XwVzT.png)  
+
 Pour changer le code il faut :
 * cloner le repository (créer un version locale [stockée sur ton ordinateur] reliée à la version en ligne) 
 * faire les changements que tu veux
