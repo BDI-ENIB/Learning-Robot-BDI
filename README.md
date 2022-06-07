@@ -88,7 +88,7 @@ Vous allez avoir besoin:
 
 ### Première étape le lancement
 Alors ce soir je suis un poil salée alors je vais t'apprendre un super acronyme, c'est RTFM.  
-**Read the Fine (Fucking) Manuel ** 
+**Read the Fine (Fucking) Manuel** 
 Apparament j'étais tellement hyppe sur le robot en 3 ème année que j'ai fait des commentaires toutes les 2 lignes et j'ai reformaté tout le code pour que quand tu lises les commentaires tu comprennes le code qui va avec.  
 Je vous invite donc dans la plus grande gentilesse à vous rendre dans le fichier summerbot_main.ino et lire le code XD 
 
